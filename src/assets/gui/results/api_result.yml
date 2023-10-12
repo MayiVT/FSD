@@ -1,0 +1,12 @@
+config:
+  data:
+    detections:
+    - confidence: 69
+      coords:
+        xmax: 395
+        xmin: 238
+        ymax: 266
+        ymin: 55
+      name: FRISBEE
+    image_height: 480
+    image_width: 640
