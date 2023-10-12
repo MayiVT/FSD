@@ -53,7 +53,7 @@ You can reach me through the following channels:
         support@araarastudios.net
 
     Social media:
-        Discord: 🌸₊˚๑ iMayiVT ✧⁺ 🍡#4001
+        Discord: mayivt
         Twitter: @MayiN3ko
         Instagram: @MayiN3ko
 
