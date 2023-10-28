@@ -89,7 +89,7 @@ class Detector:
                     }
                 }
 
-                API_ARR['detections'].append(detection)
+                API_ARR["detections"].append(detection)
 
                 cv2.rectangle(image, (xmin, ymin), (xmax, ymax), color=classColor, thickness=1)
                 cv2.putText(image, displayText, (xmin, ymin - 10), cv2.FONT_HERSHEY_PLAIN, 1, classColor, 2)
