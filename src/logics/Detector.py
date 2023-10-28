@@ -57,9 +57,9 @@ class Detector:
         bboxIdx = tf.image.non_max_suppression(bboxs, classScores, max_output_size=50, iou_threshold=threshold, score_threshold=threshold)
         
         API_ARR = {
-            'image_width': imgWidth,
-            'image_height': imgHeigh,
-            'detections': []
+            "image_width": imgWidth,
+            "image_height": imgHeigh,
+            "detections": []
         }
 
         if len(bboxIdx) != 0:
@@ -79,13 +79,13 @@ class Detector:
                 xmin, xmax, ymin, ymax = int(xmin), int(xmax), int(ymin), int(ymax)
                 
                 detection = {
-                    'name': classLabelText,
-                    'confidence': classConfidence,
-                    'coords': {
-                        'xmin': xmin,
-                        'xmax': xmax,
-                        'ymin': ymin,
-                        'ymax': ymax
+                    "name": classLabelText,
+                    "confidence": classConfidence,
+                    "coords": {
+                        "xmin": xmin,
+                        "xmax": xmax,
+                        "ymin": ymin,
+                        "ymax": ymax
                     }
                 }
 
